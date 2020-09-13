@@ -1,6 +1,6 @@
 !pip install adafruit-io
 !pip install python-telegram-bot
-import os
+import os  
 x=os.getenv('x') 
 y=os.getenv('y')
 from Adafruit_IO import Client, Feed
